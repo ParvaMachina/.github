@@ -140,8 +140,6 @@ they get read.
 
 ---
 
-<a name="turkce"></a>
-
 ## Türkçe
 
 **Parva Machina**, Latince "küçük makine" demek ve ad doğrudan tasarım

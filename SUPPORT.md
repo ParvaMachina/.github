@@ -59,8 +59,9 @@ architectural decisions, recorded in each repository's `.ssot/` directory, not
 open questions:
 
 - **There is no cloud save, and there will not be one.** Saves live in your
-  browser's own storage because there is no server. Use the game's export button
-  before clearing site data or switching devices.
+  browser's own storage because there is no server. Where a game offers a save
+  export — Regnarium and SysAdmin Crisis do — use it before you clear site data
+  or switch devices.
 - **There are no accounts, leaderboards or multiplayer.** All three need a
   server.
 - **There is no in-game purchase to restore.** The games are free and sell

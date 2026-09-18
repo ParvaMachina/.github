@@ -43,10 +43,10 @@ See [SUPPORT.md](SUPPORT.md) for what happens after you send it.
 
 ## If you do have write access to a game repository
 
-Every repository carries the rules that matter in its own `.ssot/` directory and
-a short `CLAUDE.md` for agents working in it. Read the `.ssot/ADR` entries before
-the code — they are why the code looks the way it does. What follows is only what
-is true across all of them.
+Every repository carries the rules that matter in its own `.ssot/` directory, and
+some also keep a short `CLAUDE.md` for agents working in them. Read the
+`.ssot/ADR` entries before the code — they are why the code looks the way it
+does. What follows is only what is true across all of them.
 
 ### The order of operations
 
