@@ -100,22 +100,6 @@ updated first and the code second.
 
 ---
 
-## This organisation
-
-| Repository | What it is |
-| --- | --- |
-| [`.github`](https://github.com/ParvaMachina/.github) | This profile, plus the issue templates, security policy and code of conduct shared across the organisation |
-| `parvamachina.com` | The studio site — Astro, static, no third-party request on any page |
-| `SilkWard` · `Regnarium` · `SysAdminCrisis` · `Umbraward` | The four games |
-
-The game repositories are private while the studio is one person. You do not need
-one to report something: see **[Support](https://github.com/ParvaMachina/.github/blob/main/SUPPORT.md)**,
-or write to the address below. Bug reports, balance complaints and translation
-fixes are the only signal here — there is no analytics dashboard quietly deciding
-what gets built next.
-
----
-
 ## Press and brand
 
 Everything needed to write about, stream or record these games is on the
@@ -137,6 +121,8 @@ Typefaces Archivo (headings, body) · JetBrains Mono (labels, data)
 
 There is no contact form, because a form needs a server. An email is enough —
 they get read.
+
+Founded by [Muhammet Şafak](https://www.muhammetsafak.com.tr/en/).
 
 ---
 
@@ -176,3 +162,5 @@ sonradan eklenmiş bir çeviri değil.
 
 Hata, denge sorunu ya da kötü bir çeviri gördüyseniz
 **<contact@parvamachina.com>** yeter — okunuyor.
+
+[Muhammet Şafak](https://www.muhammetsafak.com.tr) tarafından kurulmuştur.
