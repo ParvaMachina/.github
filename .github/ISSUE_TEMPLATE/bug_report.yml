@@ -1,0 +1,113 @@
+name: 🐞 Bug report
+description: Something is broken, crashes, or does not do what the rules say it does.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The games collect no telemetry — no analytics, no crash reports, nothing.
+        Whatever you write here is genuinely all we will ever know about this bug.
+
+        Security issues do not belong in a public issue. Read
+        [SECURITY.md](https://github.com/ParvaMachina/.github/blob/main/SECURITY.md).
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game
+      options:
+        - SilkWard
+        - Regnarium
+        - SysAdmin Crisis
+        - Umbraward
+        - parvamachina.com (the studio site)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where you were playing
+      options:
+        - Web — desktop browser
+        - Web — mobile browser
+        - Web — installed as an app (PWA)
+        - iOS
+        - Android
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead. One sentence each is plenty.
+      placeholder: |
+        I placed a tower on the slot next to the second bend, expecting the range ring
+        to cover the bridge. The ring drew over the bridge but nothing on the bridge
+        was ever targeted.
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where in the game
+      description: >
+        Level number, map name, wave, turn, incident name, hero, tower — whatever the
+        game puts on screen. These are stable identifiers and they are how we reach the
+        state you were in.
+      placeholder: "Umbraward — map 12 (Ash Reach), wave 7, Lantern tier 3"
+    validations:
+      required: true
+
+  - type: input
+    id: seed
+    attributes:
+      label: Seed or save
+      description: >
+        Regnarium and Umbraward both show a seed; Regnarium and SysAdmin Crisis can
+        export the save as JSON from settings. Either one usually reproduces the bug
+        exactly. Paste the seed, or attach the JSON below.
+      placeholder: "seed 2026-W38-4417"
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Does it happen again
+      options:
+        - Every time, on the same steps
+        - Sometimes
+        - Once, and I could not get it back
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: For a web bug. Rough is fine.
+      placeholder: "Safari 26 on an iPhone 13, iOS 26.1"
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: If the game shows one — usually on the settings or about screen.
+      placeholder: "0.1.0"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot, recording, exported save, console output
+      description: Drag files in here. Anything visual is worth more than a paragraph describing it.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you file
+      options:
+        - label: I checked [SUPPORT.md](https://github.com/ParvaMachina/.github/blob/main/SUPPORT.md) — this is not one of the settled decisions (no cloud save, no accounts, no leaderboards, no multiplayer).
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

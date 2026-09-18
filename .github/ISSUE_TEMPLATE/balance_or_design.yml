@@ -1,0 +1,93 @@
+name: ⚖️ Balance or design problem
+description: Nothing is broken, but something is unfair, pointless, or wins every time.
+labels: ["balance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Balance reports are the hardest kind to act on, because "this felt unfair" cannot
+        be replayed. **A seed can.** Regnarium and Umbraward both show one; Regnarium and
+        SysAdmin Crisis export the whole save as JSON. With a seed we can run your exact
+        situation through the balance harness. Without one, we are guessing at a feeling.
+
+        One seeded report is worth ten unseeded ones. Please find the seed before you file.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game
+      options:
+        - SilkWard
+        - Regnarium
+        - SysAdmin Crisis
+        - Umbraward
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem
+      options:
+        - Too hard — I could not get past it by playing well
+        - Too easy — one strategy wins everywhere
+        - A dominant option makes the other choices pointless
+        - A useless option nobody would ever pick
+        - A difficulty spike out of nowhere
+        - Unclear — the rules did not tell me what I needed to know
+        - A design decision I think is wrong
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Level, map, wave, turn, act, incident, hero, difficulty — as specific as the game lets you be.
+      placeholder: "Regnarium — turn 34, Hard, mixed setup"
+    validations:
+      required: true
+
+  - type: input
+    id: seed
+    attributes:
+      label: Seed
+      description: The single most useful field on this form.
+      placeholder: "seed 2026-W38-4417"
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: Describe the situation and why it does not work. Numbers if you have them.
+      placeholder: |
+        Every game I play on Hard, the opponent that starts in the north seat reaches
+        four settlements by turn 20 and nothing I build catches up. In six games I have
+        never seen it lose that position.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you tried
+      description: >
+        This is what separates a balance problem from a learning curve. What else did you
+        attempt, and how did it fail?
+    validations:
+      required: true
+
+  - type: input
+    id: experience
+    attributes:
+      label: How much you have played
+      description: >
+        Not a gatekeeping question. A first-hour report and a fiftieth-hour report are both
+        useful, but they mean different things.
+      placeholder: "About 10 full games, all four heroes"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Exported save, screenshot, recording
+      description: Drag files in here.

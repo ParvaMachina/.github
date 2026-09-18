@@ -1,0 +1,90 @@
+name: ♿ Accessibility problem
+description: Something in a game is hard or impossible to use.
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These are the reports we are least able to find on our own. One person testing on
+        their own hardware, with their own eyes and hands, will not discover most of what
+        belongs on this form. Please file it even if it seems small or obvious.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game
+      options:
+        - SilkWard
+        - Regnarium
+        - SysAdmin Crisis
+        - Umbraward
+        - parvamachina.com (the studio site)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of barrier
+      multiple: true
+      options:
+        - Colour contrast — text or an indicator I cannot read
+        - Meaning carried by colour alone
+        - Hit targets too small, or too close together
+        - Text cannot be enlarged, or breaks when it is
+        - Motion, flashing or camera movement that cannot be turned off
+        - Screen reader — unlabelled, mislabelled, or read in the wrong order
+        - Keyboard — something reachable only by mouse or touch
+        - Timing — a mechanic that needs a faster hand than I have
+        - Audio — information given only as sound
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What you were trying to do, and what stopped you.
+      placeholder: |
+        On the world map, the difference between a completed map and a locked one is only
+        the colour of the pin. At my contrast sensitivity the two are the same grey, so I
+        cannot tell which maps I have finished without opening each one.
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Screen, level, map, panel or control.
+      placeholder: "Umbraward — world map, region 3 pins"
+    validations:
+      required: true
+
+  - type: input
+    id: assistive-tech
+    attributes:
+      label: Assistive technology, if any
+      description: Screen reader and version, magnifier, switch device, OS accessibility settings in use.
+      placeholder: "VoiceOver on iOS 26, text size at maximum"
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: "Firefox 147 on Windows 11, 150% display scaling"
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would fix it
+      description: >
+        Optional, and never required — describing the barrier is the contribution. But if you
+        know what works elsewhere, saying so saves us guessing at a fix that does not.
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or recording
+      description: Drag files in here.

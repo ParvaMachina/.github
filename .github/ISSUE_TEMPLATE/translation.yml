@@ -1,0 +1,83 @@
+name: 🌐 Wording or translation
+description: A wrong term, an awkward line, or text that does not fit where it is.
+labels: ["i18n"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Turkish and English are both maintained as originals here — neither is a translation
+        of the other bolted on afterwards. So a bad line in either language is a real defect,
+        not a localisation afterthought, and a correction lands in the next build.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Where you saw it
+      options:
+        - SilkWard
+        - Regnarium
+        - SysAdmin Crisis
+        - Umbraward
+        - parvamachina.com (the studio site)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Which language
+      options:
+        - Turkish
+        - English
+        - Both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong with it
+      options:
+        - Wrong or misleading — it says something the game does not do
+        - The wrong term for the concept
+        - Awkward, unnatural, or machine-sounding
+        - A spelling or grammar mistake
+        - It does not fit — clipped, overflowing, or wrapped badly
+        - Missing entirely — untranslated, or a raw key showing through
+        - Inconsistent with how the same thing is named elsewhere
+    validations:
+      required: true
+
+  - type: input
+    id: current
+    attributes:
+      label: The text as it appears now
+      description: Copy it exactly, including any punctuation or capitalisation.
+      placeholder: "Koruma Ağacı'nda yeterli Lumen yok"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Where on screen
+      description: Which screen, panel, button, tooltip or dialogue line.
+      placeholder: "Umbraward — Protection Tree, the tooltip on a locked node"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What it should say
+      description: >
+        A suggested replacement if you have one, and why the current version is wrong if it
+        is not obvious. Context about the term's normal use in the field helps a lot.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Essential for anything that clips, overflows or wraps badly.

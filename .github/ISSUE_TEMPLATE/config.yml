@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 Write to the studio instead
+    url: mailto:contact@parvamachina.com
+    about: No GitHub account, or you would rather this were not public? Same reader, same tracker. Email is enough.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/ParvaMachina/.github/blob/main/SECURITY.md
+    about: Never in a public issue. Read the security policy first — it also lists what is deliberately out of scope.
+  - name: ❓ Questions, and the answers that will not change
+    url: https://github.com/ParvaMachina/.github/blob/main/SUPPORT.md
+    about: Cloud saves, accounts, leaderboards and multiplayer are settled decisions, not open questions. Check before filing.
+  - name: 🎮 The games
+    url: https://parvamachina.com/en/games/
+    about: SilkWard, Regnarium, SysAdmin Crisis and Umbraward — each with its own site and fact sheet.

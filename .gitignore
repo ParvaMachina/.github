@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Nothing is built in this repository. If something appears here that is not
+# Markdown, YAML or a licence, it is probably a mistake.
