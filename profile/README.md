@@ -4,7 +4,7 @@
 mechanism whose rules are visible, whose parts can be counted, and which you can
 open and look inside.
 
-A one-person game studio in Türkiye. Four finished games, one rule core. They
+A one-person game studio in Türkiye. Three finished games, one rule core. They
 open in a browser, they keep running with the network switched off, and not one
 of them has ever had a server behind it.
 
@@ -43,16 +43,8 @@ in-game night, then sunrise.
 
 `00:00 – 08:00` · `real commands` · `web + mobile` · **[sysadmincrisis.com](https://sysadmincrisis.com/)**
 
-### Umbraward — tower defence
-
-One lantern, one road, and everything the dark can send down it. Twenty maps
-across four regions, six towers, twenty enemies, three heroes, four bosses, plus
-an endless mode on a weekly seed. Which tower you pick matters less than **when**
-you build it: the economy is earned between waves, and each region's gimmick —
-fog, tunnels, choirs, a road that turns back on itself — breaks whatever
-arrangement worked last time.
-
-`20 maps` · `endless mode` · `meta progression` · `installable PWA` · **[umbraward.com](https://umbraward.com/)**
+**On the way:** Umbraward, a tower defence game, is still in development and not
+yet released — **[umbraward.com](https://umbraward.com/)**.
 
 ---
 
@@ -132,7 +124,7 @@ Founded by [Muhammet Şafak](https://www.muhammetsafak.com.tr/en/).
 sözleşmesi: kuralları görünen, parçaları sayılabilen, açıp içine bakabileceğiniz
 bir mekanizma.
 
-Türkiye'de, tek kişilik bir oyun stüdyosu. Dört bitmiş oyun, tek bir kural
+Türkiye'de, tek kişilik bir oyun stüdyosu. Üç bitmiş oyun, tek bir kural
 çekirdeği. Hepsi tarayıcıda açılır, ağ kapalıyken de çalışmaya devam eder ve
 hiçbirinin arkasında hiçbir zaman bir sunucu olmadı.
 
@@ -141,7 +133,9 @@ hiçbirinin arkasında hiçbir zaman bir sunucu olmadı.
 | **SilkWard** | Sıra tabanlı bulmaca | İpek Yolu boyunca kayıp kardeşinin izini süren bir kervan başı. 42 bölüm, üç perde. | [silkward.com](https://silkward.com/) |
 | **Regnarium** | Mikro-4X strateji | Altı saati olmayana 4X: tek oturumda keşfet, genişle, üret, rakipleri alt et. Savaşta zar yok. | [regnarium.com](https://regnarium.com/) |
 | **SysAdmin Crisis** | Terminal simülasyonu | Gece vardiyasındaki tek sistem yöneticisi sizsiniz. Olayı okuyup gerçek komutla çözersiniz. | [sysadmincrisis.com](https://sysadmincrisis.com/) |
-| **Umbraward** | Kule savunma | Bir fener, bir yol ve karanlığın gönderebileceği her şey. Dört bölge, yirmi harita. | [umbraward.com](https://umbraward.com/) |
+
+**Yolda:** Umbraward, bir kule savunma oyunu, henüz geliştirme aşamasında ve
+yayınlanmadı — [umbraward.com](https://umbraward.com/).
 
 **Dört söz, dördü de her oyunda geçerli:**
 
