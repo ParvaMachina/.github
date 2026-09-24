@@ -62,7 +62,7 @@ yet released — **[umbraward.com](https://umbraward.com/)**.
   randomness, it's seeded: the same seed always plays out the same sequence of
   events. What that buys — deterministic puzzles, diceless combat, an AI with
   no extra moves, a night shift you can replay exactly — differs by game; see
-  each one below.
+  each one above.
 - **Free, with nothing to sell you.** No ads, no subscription, no energy meters,
   no wait timers, no daily login rewards.
 
@@ -79,8 +79,10 @@ request that breaks a promise fails the build.
 Every game is the same shape underneath.
 
 - **A rule core** — pure TypeScript, zero runtime dependencies. The whole game
-  lives here: state, rules, opponent AI, win condition. No DOM, no React Native,
-  no clock, no randomness that is not seeded.
+  lives here: state, rules, win condition, and whatever makes that particular
+  game tick — Regnarium's opponent AI, SilkWard's deterministic enemy steps,
+  SysAdmin Crisis's incident engine. No DOM, no React Native, no clock, no
+  randomness that is not seeded.
 - **A web shell** — statically exported, installable as a PWA. There is no
   server side, because there is nothing to run.
 - **A mobile shell** — coming soon for iOS and Android on the same engine. Not
@@ -136,8 +138,8 @@ zaman bir sunucu olmadı.
 
 | Oyun | Tür | Nedir | Sitesi |
 | --- | --- | --- | --- |
-| **SilkWard** | Sıra tabanlı bulmaca | İpek Yolu boyunca kayıp kardeşinin izini süren bir kervan başı. 42 bölüm, üç perde. | [silkward.com](https://silkward.com/) |
-| **Regnarium** | Mikro-4X strateji | Altı saati olmayana 4X: tek oturumda keşfet, genişle, üret, rakipleri alt et. Savaşta zar yok. | [regnarium.com](https://regnarium.com/) |
+| **SilkWard** | Sıra tabanlı bulmaca | İpek Yolu boyunca kayıp kardeşinin izini süren bir kervan başı. Her hamlede düşmanlar da tek, deterministik bir adım atar. 42 bölüm, üç perde. | [silkward.com](https://silkward.com/) |
+| **Regnarium** | Mikro-4X strateji | Altı saati olmayana 4X: tek oturumda keşfet, genişle, üret, rakipleri alt et. Savaşta zar yok, rakip yapay zekâ da sizinle aynı bilgi ve aynı hamlelerle oynar, ek hamle almaz. | [regnarium.com](https://regnarium.com/) |
 | **SysAdmin Crisis** | Terminal simülasyonu | Gece vardiyasındaki tek sistem yöneticisi sizsiniz. Olayı okuyup gerçek komutla çözersiniz. Sonsuz mod gün doğduktan sonra tohumlu rastgelelikle sürer — aynı tohum aynı geceyi verir. | [sysadmincrisis.com](https://sysadmincrisis.com/) |
 
 **Yolda:** Umbraward, bir kule savunma oyunu, henüz geliştirme aşamasında ve
@@ -152,7 +154,7 @@ yayınlanmadı — [umbraward.com](https://umbraward.com/).
   tohumludur (seeded): aynı tohum her zaman aynı olay dizisini üretir. Bunun
   her oyunda ne kazandırdığı değişir — deterministik bulmacalar, zarsız savaş,
   fazladan hamlesi olmayan bir yapay zekâ, baştan sona tekrarlanabilir bir
-  vardiya — aşağıda oyun oyun.
+  vardiya — yukarıda oyun oyun.
 - **Ücretsiz ve satacak bir şeyi yok.** Reklam yok, abonelik yok, enerji ya da
   bekleme sayacı yok, günlük giriş ödülü yok.
 
