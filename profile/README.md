@@ -4,9 +4,9 @@
 mechanism whose rules are visible, whose parts can be counted, and which you can
 open and look inside.
 
-A one-person game studio in Türkiye. Three finished games, one rule core. They
-open in a browser, they keep running with the network switched off, and not one
-of them has ever had a server behind it.
+A one-person game studio in Türkiye. Three finished games. They open in a
+browser, they keep running with the network switched off, and not one of them
+has ever had a server behind it.
 
 **[parvamachina.com](https://parvamachina.com/)** · Turkish and English, both from
 the first release
@@ -22,7 +22,7 @@ single-screen isometric diorama: you take one step, the enemies take one
 deterministic step. No luck, no reflexes, no rule that reveals itself only after
 it has beaten you. The story is told almost entirely without words.
 
-`42 levels` · `three acts` · `web + mobile` · **[silkward.com](https://silkward.com/)**
+`42 levels` · `three acts` · `web now, mobile soon` · **[silkward.com](https://silkward.com/)**
 
 ### Regnarium — micro-4X strategy
 
@@ -32,7 +32,7 @@ Combat rolls nothing: the preview you see before attacking **is** the
 calculation. The opponent AI plays with the same information and the same moves
 you have.
 
-`one session` · `diceless combat` · `AI that does not cheat` · `web + mobile` · **[regnarium.com](https://regnarium.com/)**
+`one session` · `diceless combat` · `AI that does not cheat` · `web now, mobile soon` · **[regnarium.com](https://regnarium.com/)**
 
 ### SysAdmin Crisis — terminal simulation
 
@@ -41,7 +41,7 @@ go off; you read the signature, name the incident, and fix it by typing a real
 command — the same one you would type at 03:00 on a real box. Eight hours of
 in-game night, then sunrise.
 
-`00:00 – 08:00` · `real commands` · `web + mobile` · **[sysadmincrisis.com](https://sysadmincrisis.com/)**
+`00:00 – 08:00` · `real commands` · `web now, mobile soon` · **[sysadmincrisis.com](https://sysadmincrisis.com/)**
 
 **On the way:** Umbraward, a tower defence game, is still in development and not
 yet released — **[umbraward.com](https://umbraward.com/)**.
@@ -78,12 +78,13 @@ Every game is the same shape underneath.
   no clock, no randomness that is not seeded.
 - **A web shell** — statically exported, installable as a PWA. There is no
   server side, because there is nothing to run.
-- **A mobile shell** — iOS and Android on the same engine. Not a separate
-  edition; a second window onto the same game.
+- **A mobile shell** — coming soon for iOS and Android on the same engine. Not
+  a separate edition; a second window onto the same game once it ships.
 
-Umbraward is the one deliberate exception: it renders through PixiJS 8 on Vite
-and ships as a mobile-first web build rather than a native shell. The core rule —
-deterministic simulation, no network at runtime — is identical.
+Umbraward, still in development (see above), is planned as the one deliberate
+exception: it will render through PixiJS 8 on Vite and ship as a mobile-first
+web build rather than a native shell. Its core rule — deterministic
+simulation, no network at runtime — will be identical.
 
 Each repository keeps its decisions in a `.ssot/` directory — a single source of
 truth holding the PRD, the architecture decision records, the game design
@@ -124,9 +125,9 @@ Founded by [Muhammet Şafak](https://www.muhammetsafak.com.tr/en/).
 sözleşmesi: kuralları görünen, parçaları sayılabilen, açıp içine bakabileceğiniz
 bir mekanizma.
 
-Türkiye'de, tek kişilik bir oyun stüdyosu. Üç bitmiş oyun, tek bir kural
-çekirdeği. Hepsi tarayıcıda açılır, ağ kapalıyken de çalışmaya devam eder ve
-hiçbirinin arkasında hiçbir zaman bir sunucu olmadı.
+Türkiye'de, tek kişilik bir oyun stüdyosu. Üç bitmiş oyun. Hepsi tarayıcıda
+açılır, ağ kapalıyken de çalışmaya devam eder ve hiçbirinin arkasında hiçbir
+zaman bir sunucu olmadı.
 
 | Oyun | Tür | Nedir | Sitesi |
 | --- | --- | --- | --- |
