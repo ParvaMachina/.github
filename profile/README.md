@@ -39,9 +39,11 @@ you have.
 You are the only sysadmin on the night shift. Logs scroll, metrics drift, pagers
 go off; you read the signature, name the incident, and fix it by typing a real
 command — the same one you would type at 03:00 on a real box. Eight hours of
-in-game night, then sunrise.
+in-game night, then sunrise. An endless mode keeps the shift going past sunrise
+on a seeded random generator — give someone your seed and they get your exact
+night, incident for incident.
 
-`00:00 – 08:00` · `real commands` · `web now, mobile soon` · **[sysadmincrisis.com](https://sysadmincrisis.com/)**
+`00:00 – 08:00` · `real commands` · `seeded endless mode` · `web now, mobile soon` · **[sysadmincrisis.com](https://sysadmincrisis.com/)**
 
 **On the way:** Umbraward, a tower defence game, is still in development and not
 yet released — **[umbraward.com](https://umbraward.com/)**.
@@ -56,8 +58,11 @@ yet released — **[umbraward.com](https://umbraward.com/)**.
 - **Nothing is collected.** No accounts, no telemetry, no analytics, no crash
   reports. Not anonymised — absent. Saves, scores and settings stay in your
   browser's own storage.
-- **No chance, no hidden rules.** No dice are rolled anywhere, and the opponent
-  AI cannot use a single command you cannot.
+- **Nothing is left to chance you can't reproduce.** Wherever a game uses
+  randomness, it's seeded: the same seed always plays out the same sequence of
+  events. What that buys — deterministic puzzles, diceless combat, an AI with
+  no extra moves, a night shift you can replay exactly — differs by game; see
+  each one below.
 - **Free, with nothing to sell you.** No ads, no subscription, no energy meters,
   no wait timers, no daily login rewards.
 
@@ -133,7 +138,7 @@ zaman bir sunucu olmadı.
 | --- | --- | --- | --- |
 | **SilkWard** | Sıra tabanlı bulmaca | İpek Yolu boyunca kayıp kardeşinin izini süren bir kervan başı. 42 bölüm, üç perde. | [silkward.com](https://silkward.com/) |
 | **Regnarium** | Mikro-4X strateji | Altı saati olmayana 4X: tek oturumda keşfet, genişle, üret, rakipleri alt et. Savaşta zar yok. | [regnarium.com](https://regnarium.com/) |
-| **SysAdmin Crisis** | Terminal simülasyonu | Gece vardiyasındaki tek sistem yöneticisi sizsiniz. Olayı okuyup gerçek komutla çözersiniz. | [sysadmincrisis.com](https://sysadmincrisis.com/) |
+| **SysAdmin Crisis** | Terminal simülasyonu | Gece vardiyasındaki tek sistem yöneticisi sizsiniz. Olayı okuyup gerçek komutla çözersiniz. Sonsuz mod gün doğduktan sonra tohumlu rastgelelikle sürer — aynı tohum aynı geceyi verir. | [sysadmincrisis.com](https://sysadmincrisis.com/) |
 
 **Yolda:** Umbraward, bir kule savunma oyunu, henüz geliştirme aşamasında ve
 yayınlanmadı — [umbraward.com](https://umbraward.com/).
@@ -143,8 +148,11 @@ yayınlanmadı — [umbraward.com](https://umbraward.com/).
 - **Çevrimdışı çalışır.** Sayfayı bir kez açın; aynı oyun uçak modunda da çalışır.
 - **Hiçbir şey toplanmaz.** Hesap yok, telemetri yok, analitik yok, çökme raporu
   yok. Anonimleştirilmiş değil — hiç yok.
-- **Şans yok, gizli kural yok.** Hiçbir yerde zar atılmaz; rakip yapay zekâ
-  sizin kullanamadığınız tek bir hamleyi kullanamaz.
+- **Hesabını veremeyeceğiniz bir şans yok.** Bir oyunda rastgelelik varsa
+  tohumludur (seeded): aynı tohum her zaman aynı olay dizisini üretir. Bunun
+  her oyunda ne kazandırdığı değişir — deterministik bulmacalar, zarsız savaş,
+  fazladan hamlesi olmayan bir yapay zekâ, baştan sona tekrarlanabilir bir
+  vardiya — aşağıda oyun oyun.
 - **Ücretsiz ve satacak bir şeyi yok.** Reklam yok, abonelik yok, enerji ya da
   bekleme sayacı yok, günlük giriş ödülü yok.
 
